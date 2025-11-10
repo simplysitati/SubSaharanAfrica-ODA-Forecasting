@@ -1,6 +1,6 @@
 # 🌍 Sub-Saharan Africa ODA Forecasting (1960–2030)
 
-## 📖 Project Overview
+##  Project Overview
 This project analyzes and forecasts **Official Development Assistance (ODA)** to **Sub-Saharan Africa** between **1960 and 2030**, using historical data from the **OECD** and **World Bank**.  
 It was developed as part of my coursework in **STA3050 – Time Series Analysis & Forecasting** at the **United States International University–Africa (USIU-A)**.
 
@@ -9,7 +9,7 @@ The analysis combines **time series modeling** with an **interactive data visual
 
 ---
 
-## 🧠 Objectives
+##  Objectives
 - Examine historical trends in ODA inflows (1960–2023).
 - Apply **ARIMA (1,1,1)** and **Holt’s Linear Trend** models for forecasting.
 - Evaluate model performance using **MAE** and **RMSE** metrics.
@@ -18,7 +18,7 @@ The analysis combines **time series modeling** with an **interactive data visual
 
 ---
 
-## 🧮 Dataset
+##  Dataset
 **Source:** [World Bank Data – Net Official Development Assistance (current US$)](https://data.worldbank.org/indicator/DT.ODA.ALLD.CD?locations=ZG)  
 **Coverage:** 1960–2023  
 **Geographic scope:** Sub-Saharan Africa (aggregate of 48 countries)  
@@ -32,7 +32,7 @@ Each country was mapped to one of four analytical subregions:
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 The project workflow follows these steps:
 
 1. **Data Preprocessing**
@@ -54,7 +54,7 @@ The project workflow follows these steps:
 
 ---
 
-## 📊 Model Evaluation Summary
+##  Model Evaluation Summary
 
 | Model | MAE (USD) | RMSE (USD) | Notes |
 |--------|------------|------------|--------|
@@ -66,7 +66,7 @@ Holt’s Linear Trend model produced lower error margins, making it a better fit
 
 ---
 
-## 🧩 Key Insights
+##  Key Insights
 - ODA to Sub-Saharan Africa shows **steady long-term growth** with periodic global shocks (1980s debt crises, 2008 recession, 2020 pandemic).  
 - **East and West Africa** remain dominant recipients due to diversified economies and donor priorities.  
 - **Central and Southern Africa** exhibit flatter growth trends.  
@@ -74,7 +74,7 @@ Holt’s Linear Trend model produced lower error margins, making it a better fit
 
 ---
 
-## ⚠️ Contextual Caveat
+##  Contextual Caveat
 While the statistical models performed strongly, they assume **historical continuity**.  
 Recent real-world developments contradict this assumption:
 
