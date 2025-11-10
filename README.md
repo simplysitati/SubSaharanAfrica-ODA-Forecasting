@@ -2,7 +2,7 @@
 
 ## 📖 Project Overview
 This project analyzes and forecasts **Official Development Assistance (ODA)** to **Sub-Saharan Africa** between **1960 and 2030**, using historical data from the **OECD** and **World Bank**.  
-It was developed as part of **STA3050 – Time Series Analysis & Forecasting** at the **United States International University–Africa (USIU-A)**.
+It was developed as part of my coursework in **STA3050 – Time Series Analysis & Forecasting** at the **United States International University–Africa (USIU-A)**.
 
 The analysis combines **time series modeling** with an **interactive data visualization dashboard**, allowing exploration of long-term aid trends across four subregions:  
 **East**, **West**, **Central**, and **Southern Africa**.
